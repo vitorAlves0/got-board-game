@@ -16,10 +16,14 @@ export const Container = styled.div<PropsNumHouse>`
     
 
     img {
-        width: ${props => (props.numHouseItem > 6 ? "40px" : "80px")};
+        width: 80px;
         margin-bottom: 10px;
         margin-left: ${props => (props.numHouseItem > 6 ? "15px" : "0")};
         margin-right: ${props => (props.numHouseItem > 6 ? "15px" : "0")};
+
+        @media (max-width: 500px) {
+            width: ${props => (props.numHouseItem > 6 ? "40px" : "80px")};
+        }
     }
 
     &:hover {

@@ -31,9 +31,9 @@ const App = () => {
       setHouseMist(housePlay);
       setInputing(false);
 
-    } else {
-      alert("Numero de jogadores inválido...");
-      };
+    } //else {
+      //alert("Numero de jogadores inválido...");
+      //};
   };
 
   const handleChange = () => {

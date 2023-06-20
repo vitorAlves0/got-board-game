@@ -46,6 +46,7 @@ export const HouseArea = styled.div<ContainerProps>`
     @media (max-width: 500px) {
         grid-template-columns: ${props => (props.changeGrid > 6 ? "repeat(1, 1fr)" : "repeat(2, 1fr)")};
         padding: ${props => (props.changeGrid > 6 ? "0 25px" : "0 20px")};
+        gap: 10px;
     }
   
 `;
