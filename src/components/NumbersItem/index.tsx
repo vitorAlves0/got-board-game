@@ -7,6 +7,6 @@ type Props = {
 
 export const NumbersItem = ({number, numNumber}: Props) => {
     return (
-        <C.Container numNumberItem={numNumber}>Casa {number}</C.Container>
+        <C.Container numNumberItem={numNumber}><div>Casa {number}</div></C.Container>
     );
 };
